@@ -6,6 +6,6 @@ getgenv().Config = {
     ["FastAttack"] = true,
 }
 
-Check_Setting(getgenv().MyName)
-Get_Setting(getgenv().MyName)
-Update_Setting(getgenv().MyName)
+getgenv().Check_Setting(getgenv().MyName)
+getgenv().Get_Setting(getgenv().MyName)
+getgenv().Update_Setting(getgenv().MyName)
