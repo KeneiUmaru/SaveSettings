@@ -1,3 +1,11 @@
+spawn(function()
+    while wait() do
+        pcall(function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/KeneiUmaru/SaveSettings/main/SAVESETTINGS_API.lua'))()
+        end)
+    end
+end)
+
 local JSON = JsonEncode({abc='fff'})
 JsonDecode(JSON)
 
